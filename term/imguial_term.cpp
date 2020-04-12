@@ -1,7 +1,8 @@
 #include "imguial_term.h"
 
-#include <stdio.h>
-#include <ctype.h>
+#include <algorithm>
+#include <cstdio>
+#include <cctype>
 
 ImGuiAl::Fifo::Fifo(void* const buffer, size_t const size)
     : _buffer(buffer)
